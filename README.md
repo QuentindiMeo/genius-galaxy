@@ -2,7 +2,7 @@
 
 ## Stack technique
 
-front : Next 15 avec TypeScript - react-three-fiber \& d3-force-3d - zustand pour le stage management - tailwind - Redis ? (caching et màj en temps réel)  
+front : Next 15 avec TypeScript - react-three-fiber & d3-force-3d - zustand pour le stage management - tailwind - Redis ? (caching et màj en temps réel)  
 back : Python 3.14 avec FastAPI + SQLAlchemy (+ Alembic migrations) et Pydantic -> DB Postgre  
 auth : Next Auth.js + session cookie FastAPI - OAuth Genius  
 roles : admin - operator - mentor - mentee - guest \[role request via email sent to all operators+]  
@@ -32,7 +32,7 @@ GET /regions → list of all regions
 
 ### 1️⃣ Core data + admin
 
-Build FastAPI + PostgreSQL models for users \& mentorships  
+Build FastAPI + PostgreSQL models for users & mentorships  
 Add simple Next.js dashboard (admin-only) to add mentors/mentees
 
 ### 2️⃣ 3D visualization
@@ -41,12 +41,12 @@ Use react-three-fiber to render mentors as glowing points
 Position mentees orbiting their mentors  
 Use d3-force-3d to cluster by region
 
-### 3️⃣ Authentication \& roles
+### 3️⃣ Authentication & roles
 
 Add NextAuth  
 Different dashboards for mentors/mentees
 
-### 4️⃣ Polish \& deployment
+### 4️⃣ Polish & deployment
 
 TBD
 
