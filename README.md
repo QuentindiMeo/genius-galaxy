@@ -8,7 +8,7 @@ auth : Next Auth.js + session cookie FastAPI - OAuth Genius
 roles : admin - operator - mentor - mentee - guest \[role request via email sent to all operators+]  
 data models: users (id=Genius,highest\_role,region'FK'regions.name,mentor\_id'FK'users.id,joined\_gg), regions (id,name,xyz), mentorships (mentor\_id,mentee\_id,status,start\_date,end\_date,result,notes)  
 status = statut du mentorat \[discussion, reconnaissance, phase 1-2-3, validation, succès, abandon] ; result = état à date \[a le rôle, a été démis rapidement, a été démis, a demandé sa démission, n'a jamais eu rôle]  
-deployment: Vercel (Next.js) + Fly.io | Railway (FastAPI + PostgreSQL), Supabase, Cloudflare + domain
+deployment: Vercel (Next.js) + Railway (FastAPI + PostgreSQL), Supabase, Cloudflare + domain
 
 ## features
 
