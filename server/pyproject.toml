@@ -13,10 +13,15 @@ dependencies = [
     "sqlalchemy (>=2.0.44,<3.0.0)",
     "pydantic (>=2.12.4,<3.0.0)",
     "alembic (>=1.17.1,<2.0.0)",
-    "sqlmodel (>=0.0.27,<0.0.28)"
+    "sqlmodel (>=0.0.27,<0.0.28)",
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "mypy (>=1.18.2,<2.0.0)"
+]

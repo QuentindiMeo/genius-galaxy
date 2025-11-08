@@ -416,7 +416,7 @@ def get_graph(db: Session = Depends(get_db)) -> Dict[str, Any]:
   ],
   "users": [
     {
-      "id": "oauth_123",
+      "id": "019a5e02-3d4a-7d37-b42b-5a1bd879ba9f",
       "higher_role": "mentor",
       "region": 1,
       "mentor_id": null,
@@ -433,8 +433,8 @@ def get_graph(db: Session = Depends(get_db)) -> Dict[str, Any]:
   "mentorships": [
     {
       "id": 1,
-      "mentor_id": "oauth_123",
-      "mentee_id": "oauth_456",
+      "mentor_id": "019a5e02-3d4a-7d37-b42b-5a1bd879ba9f",
+      "mentee_id": "019a5e02-5d37-7472-8f29-6a86d40c9774",
       "status": "active",
       "start_date": "2025-10-12T00:00:00",
       "end_date": null,
